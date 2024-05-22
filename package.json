@@ -1,0 +1,26 @@
+{
+  "name": "my-table",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@fontsource/lato": "^5.0.21",
+    "@tanstack/lit-table": "^8.18.0",
+    "@twind/core": "^1.1.3",
+    "@twind/preset-autoprefix": "^1.0.7",
+    "@twind/preset-tailwind": "^1.1.4",
+    "@twind/with-web-components": "^1.1.3",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
